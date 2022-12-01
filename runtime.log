@@ -1,0 +1,25 @@
+# 2022-12-01T14:30:16: GL Initialized
+2022-12-01T14:30:16: GL Version:                 OpenGL ES 2.0 (ANGLE 2.1.0.0d79a9db3d42)
+2022-12-01T14:30:16: GL Renderer:                ANGLE (ATI Radeon 3000 Graphics Direct3D9Ex vs_3_0 ps_3_0)
+2022-12-01T14:30:16: GL Shader Language version: OpenGL ES GLSL ES 1.00 (ANGLE 2.1.0.0d79a9db3d42)
+2022-12-01T14:30:16: GL Vendor:                  Google Inc.
+2022-12-01T14:30:16: GL Extensions:              GL_OES_element_index_uint GL_OES_packed_depth_stencil GL_OES_get_program_binary GL_OES_rgb8_rgba8 GL_EXT_texture_format_BGRA8888 GL_EXT_read_format_bgra GL_OES_texture_half_float GL_OES_texture_half_float_linear GL_OES_texture_float GL_OES_texture_float_linear GL_EXT_texture_compression_dxt1 GL_ANGLE_texture_compression_dxt3 GL_ANGLE_texture_compression_dxt5 GL_EXT_texture_storage GL_OES_texture_npot GL_EXT_texture_filter_anisotropic GL_EXT_occlusion_query_boolean GL_NV_fence GL_EXT_robustness GL_EXT_blend_minmax GL_ANGLE_framebuffer_blit GL_ANGLE_framebuffer_multisample GL_ANGLE_instanced_arrays GL_ANGLE_pack_reverse_row_order GL_OES_standard_derivatives GL_EXT_shader_texture_lod GL_EXT_frag_depth GL_ANGLE_texture_usage GL_ANGLE_translated_shader_source GL_EXT_debug_marker GL_OES_EGL_image GL_EXT_unpack_subimage GL_NV_pack_subimage GL_OES_vertex_array_object
+2022-12-01T14:30:16: GL Context:                 Index: 168067636, Color: 32 (8888), Depth: 16, Stencil: 0, Samples: 0, Accum: 0 (0000), Buffers: 2, Stereo: False
+2022-12-01T14:30:37: ERROR: soft handled
+2022-12-01T14:30:37: System.ArgumentException: Unable to sort because the IComparer.Compare() method returns inconsistent results. Either a value does not compare equal to itself, or one value repeatedly compared to another value yields different results. x: '',  x's type: '#=zvcr$QuhpD7eb9t5y3ce_gYgafznu', IComparer: 'System.Array+FunctorComparer`1[#=zvcr$QuhpD7eb9t5y3ce_gYgafznu]'.
+2022-12-01T14:30:37: at System.Collections.Generic.ArraySortHelper`1.Sort(T[] keys, Int32 index, Int32 length, IComparer`1 comparer)
+2022-12-01T14:30:37: at System.Array.Sort[T](T[] array, Int32 index, Int32 length, IComparer`1 comparer)
+2022-12-01T14:30:37: at System.Collections.Generic.List`1.Sort(Comparison`1 comparison)
+2022-12-01T14:30:37: at #=z2Ec1g0307ZkAubz5eE3xv0Ichz7m.#=zILNGNB6K_mGtSKEp7g==()
+2022-12-01T14:30:37: at #=z2Ec1g0307ZkAubz5eE3xv0Ichz7m.#=zLMCcRwo=()
+2022-12-01T14:30:37: at #=zdb8S9GZ2tpSdgXuEoQ==.#=zaXbbH5Jw95gK()
+2022-12-01T14:30:37: at #=zdb8S9GZ2tpSdgXuEoQ==.#=zsRxCF5U=()
+2022-12-01T14:30:37: ERROR:
+2022-12-01T14:30:37: System.ArgumentException: Unable to sort because the IComparer.Compare() method returns inconsistent results. Either a value does not compare equal to itself, or one value repeatedly compared to another value yields different results. x: '',  x's type: '#=zvcr$QuhpD7eb9t5y3ce_gYgafznu', IComparer: 'System.Array+FunctorComparer`1[#=zvcr$QuhpD7eb9t5y3ce_gYgafznu]'.
+2022-12-01T14:30:37: at System.Collections.Generic.ArraySortHelper`1.Sort(T[] keys, Int32 index, Int32 length, IComparer`1 comparer)
+2022-12-01T14:30:37: at System.Array.Sort[T](T[] array, Int32 index, Int32 length, IComparer`1 comparer)
+2022-12-01T14:30:37: at System.Collections.Generic.List`1.Sort(Comparison`1 comparison)
+2022-12-01T14:30:37: at #=z2Ec1g0307ZkAubz5eE3xv0Ichz7m.#=zILNGNB6K_mGtSKEp7g==()
+2022-12-01T14:30:37: at #=z2Ec1g0307ZkAubz5eE3xv0Ichz7m.#=zLMCcRwo=()
+2022-12-01T14:30:37: at #=zdb8S9GZ2tpSdgXuEoQ==.#=zaXbbH5Jw95gK()
+2022-12-01T14:30:37: at #=zdb8S9GZ2tpSdgXuEoQ==.#=zsRxCF5U=()
